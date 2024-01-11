@@ -44,6 +44,7 @@ Learning Git Branching
 5. List all branches
 
 `git branch`
+
 `git branch -v`
 
 `git status`
