@@ -5,8 +5,9 @@ Learning Git Branching
 ## Define terms
 
 - Branch
-- 1. Isolation
-- 2. Parallel Development
+
+1.  Isolation
+2.  Parallel Development
 
 ## Git Commands
 
