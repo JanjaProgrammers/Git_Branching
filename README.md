@@ -13,18 +13,27 @@ Learning Git Branching
 
 1. Create a branch
 
-`git branch "branchname"`
+```bash
+git branch "branchname"
+```
 
-2. Switching between branches
+2.  Switching between branches
 
-   - `git switch branchname`
-   - `git checkout branchname`
+    ```bash
+      git switch branchname
+    ```
 
-   - Directly switching to a new branch
+    ```bash
+      git checkout branchname
+    ```
 
-     `git checkout -b branchname`
+    - Directly switching to a new branch
 
-3. Merging
+    ```bash
+      git checkout -b branchname
+    ```
+
+3.  Merging
 
 `    git merge sourcebranch`
 
@@ -34,15 +43,21 @@ Learning Git Branching
 
 5. List all branches
 
-`git branch`
+````bash
+git branch`
 
 6. A list of extra commands
 
-`git branch -v`
+```bash
+git branch -v`
 
-`git status`
+```bash
+git status`
 
 - List merged commits
-  `git branch --merged`
+  ```bash
+git branch --merged`
 - List unmerged commits
-  `git branch --no-merged`
+  ```bash
+git branch --no-merged`
+````
