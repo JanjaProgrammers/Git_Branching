@@ -35,29 +35,40 @@ git branch "branchname"
 
 3.  Merging
 
-`    git merge sourcebranch`
+```bash
+git merge sourcebranch
+```
 
 4. Resolve Conflicts
 
-`    git mergetool`
+```bash
+git mergetool
+```
 
 5. List all branches
 
-````bash
-git branch`
+```bash
+git branch
+```
 
 6. A list of extra commands
 
 ```bash
-git branch -v`
+git branch -v
+```
 
 ```bash
-git status`
+git status
+```
 
 - List merged commits
-  ```bash
-git branch --merged`
+
+```bash
+git branch --merged
+```
+
 - List unmerged commits
-  ```bash
-git branch --no-merged`
-````
+
+```bash
+git branch --no-merged
+```
