@@ -72,3 +72,9 @@ git branch --merged
 ```bash
 git branch --no-merged
 ```
+
+#### Bonus Command
+
+```code
+<hl> git log</hl>
+```
